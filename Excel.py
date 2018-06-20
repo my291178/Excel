@@ -24,7 +24,9 @@ ws.title = 'test'
 ws['A1'] = "ОТЧЕТ"
 ws.merge_cells('A1:D1')
 #ws.add_image()
+
 ws.min_column
+
 ws['A1'].border = thick_border
 ws['B1'].border = thick_border
 ws['C1'].border = thick_border
